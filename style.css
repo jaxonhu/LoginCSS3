@@ -1,0 +1,134 @@
+
+html, body {
+    height: 100%;
+}
+body {
+    background-color: #d9dee2;
+    background-image: -moz-linear-gradient(center top , #ebeef2, #d9dee2);
+    font: 12px "Lucida Sans Unicode","Trebuchet MS",Arial,Helvetica;
+    margin: 0;
+    text-align: center;
+}
+#login {
+    background-color: #fff;
+    background-image: -moz-linear-gradient(center top , #fff, #eee);
+    border-radius: 3px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.2), 0 1px 1px rgba(0, 0, 0, 0.2), 0 3px 0 #fff, 0 4px 0 rgba(0, 0, 0, 0.2), 0 6px 0 #fff, 0 7px 0 rgba(0, 0, 0, 0.2);
+    height: 240px;
+    left: 50%;
+    margin: -150px 0 0 -230px;
+  /* margin:0 auto;*/
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    
+    width: 400px;
+    z-index: 0;
+}
+#login:before {
+    border: 1px dashed #ccc;
+    bottom: 5px;
+    box-shadow: 0 0 0 1px #fff;
+    content: "";
+    left: 5px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    z-index: -1;
+}
+h1 {
+    color: #666;
+    font: 26px/1 Verdana,Helvetica;
+    letter-spacing: 4px;
+    margin: 0 0 30px;
+    position: relative;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.7), 0 2px 0 rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+}
+h1:after, h1:before {
+    background-color: #777;
+    content: "";
+    height: 1px;
+    position: absolute;
+    top: 15px;
+    width: 120px;
+}
+h1:after {
+    background-image: -moz-linear-gradient(left center , #777, #fff);
+    right: 0;
+}
+h1:before {
+    background-image: -moz-linear-gradient(right center , #777, #fff);
+    left: 0;
+}
+fieldset {
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+#inputs input {
+    background: url("http://www.red-team-design.com/wp-content/uploads/2011/09/login-sprite.png") no-repeat scroll 0 0 #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px #ccc inset, 0 1px 0 #fff;
+    margin: 0 0 10px;
+    padding: 15px 15px 15px 30px;
+    width: 353px;
+}
+#username {
+    background-position: 5px -2px !important;
+}
+#password {
+    background-position: 5px -52px !important;
+}
+#inputs input:focus {
+    background-color: #fff;
+    border-color: #e8c291;
+    box-shadow: 0 0 0 1px #e8c291 inset;
+    outline: medium none;
+}
+#actions {
+    margin: 25px 0 0;
+}
+#submit {
+    background-color: #ffb94b;
+    background-image: -moz-linear-gradient(center top , #fddb6f, #ffb94b);
+    border-color: #d69e31 #e3a037 #d5982d;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+    color: #8f5a0a;
+    cursor: pointer;
+    float: left;
+    font: bold 15px Arial,Helvetica;
+    height: 35px;
+    padding: 0;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    width: 120px;
+}
+#submit:hover, #submit:focus {
+    background-color: #fddb6f;
+    background-image: -moz-linear-gradient(center top , #ffb94b, #fddb6f);
+}
+#submit:active {
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+    outline: medium none;
+}
+#submit::-moz-focus-inner {
+    border: medium none;
+}
+#actions a {
+    color: #3151a2;
+    float: right;
+    line-height: 35px;
+    margin-left: 10px;
+}
+#back {
+    color: #999;
+    display: block;
+    position: relative;
+    text-align: center;
+    top: 60px;
+}
